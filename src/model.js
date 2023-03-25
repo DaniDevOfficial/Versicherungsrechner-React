@@ -1,5 +1,5 @@
 import {useState} from "react";
-import "./Rechner.css"
+import "./components.css"
 
 
 export default function Modell() {
@@ -14,7 +14,7 @@ function nextComponent(){
 
 
     return (
-        <div id="modell">
+        <div id="model">
 
         <label for="quadrat">Quadratmetermodell</label>
         <input type="radio" id="quadrat"name="modell" value="Quadratmeter" className="radioinput"></input>

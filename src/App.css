@@ -14,8 +14,7 @@
 }
 
 .App-header {
-
-  background-image: url("C:\Schule\BBW\M-Freitag\react_versicherungsrechner\src\img\familie.jpg");
+background-image: url("./img/familie.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;

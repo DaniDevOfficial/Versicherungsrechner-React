@@ -1,25 +1,21 @@
-import sanju from './sanju.png';
 import './App.css';
-import Rechner from './Rechner.js'
-import MySound from './MySound.js'
-import Modell from './Modell'
+import Calculator from './calculator.js'
+import Model from './model'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      {/*  <img src={sanju} className="App-logo" alt="logo" />
-      *  <MySound/>
-  */}
+
 
 <br/>
 
 <br/>
 
 
-        <Modell/>
+        <Model/>
         <br/>
 
-        <Rechner/>
+        <Calculator/>
         
         <br/>
 
