@@ -20,17 +20,34 @@
 }
 
 
-.textinput {
+.numberinput {
 
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #767272;
-    border-radius: 4px;
+    border: transparent;
+    border-radius: 15px;
     box-sizing: border-box;
-}
+    text-align: right;
+    box-shadow: #6c726c;
+    color: white;
+    font-size: 25px;
+    margin-top: 3%;
+    padding:20px;
+    filter: drop-shadow(0 0 0.75rem rgb(103, 94, 94));
+    background-color: transparent;
+    border-bottom: 2px solid rgb(219, 151, 151);
 
+}
+.numberinput:focus {
+    outline: none;
+  }
+.numberinput::placeholder{
+    color:rgb(174, 174, 177);
+    }
+
+  
 .submitinput {
     width: 100%;
     background-color: #6c726c;

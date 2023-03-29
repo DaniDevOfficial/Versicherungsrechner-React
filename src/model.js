@@ -1,4 +1,6 @@
 import {useState} from "react";
+import { Link } from 'react-router-dom'
+
 import "./components.css"
 
 
@@ -25,7 +27,7 @@ function nextComponent(){
         <input type="radio" id="hauswert"name="modell" value="Hauswert" className="radioinput"></input>
 <br/>
 
-        <input type="submit" value="Weiter" className="submitinput" onClick={nextComponent}></input>
+<Link to='/Rechner'><input type="submit" value="Weiter" className="submitinput" onClick={nextComponent} ></input></Link>
             
         </div>
         
