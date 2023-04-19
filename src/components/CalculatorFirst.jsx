@@ -1,27 +1,15 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom'
-
+import FinalOutput from "./CalculatorOutput";
+import ParentWhole from "./ParentWhole";
 import "./components.css";
 
 
 
-export default function Rechner() {
-    const [worth, setWorth] = useState();
-    const [versichertwert, setVersichertwert] = useState();
-    const [schaden, setSchaden] = useState();
-    const [evaluation, setEvaluation] = useState();
-    const [versicherung, setVersicherung] = useState();
-
-    function addThousandSeparators(num) {
-        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'");
-    }
+export default function CalculatorFirst({ setWorth, setInsurance, setDamage }) {
 
 
-    function seperator() {
-
-    }
-
-    function calcutate() {
+/*      function calculation() {
         let percent;
         percent = versichertwert / worth;
         let paid;
@@ -63,7 +51,7 @@ export default function Rechner() {
             );
         }
     }
-
+*/
     return (
         <div id="calculator">
             <p>Hausratswert</p>
@@ -72,8 +60,7 @@ export default function Rechner() {
                 placeholder="Hausratswert"
                 type="number"
                 min="0"
-                value={worth}
-                onChange={(e) => { setWorth(parseInt(e.target.value)); seperator() }}></input>
+                onChange={(e) => { setWorth(parseInt(e.target.value));  }}></input>
             <br />
             <p>Für wie viel sind sie versichert</p>
             <input
@@ -81,22 +68,19 @@ export default function Rechner() {
                 placeholder="Prämien"
                 type="number"
                 min="0"
-                value={versichertwert}
-                onChange={(e) => setVersichertwert(addThousandSeparators(parseInt(e.target.value)))}></input>
+                onChange={(e) => setInsurance((parseInt(e.target.value)))}></input>
             <br />
             <p>Schaden Total</p>
             <input
                 className="numberinput"
-                placeholder="Schaden"
+                placeholder="Schaden (optional)"
                 type="number"
                 min="0"
-                value={schaden}
-                onChange={(e) => setSchaden(parseInt(e.target.value))}></input>
+                onChange={(e) => setDamage(parseInt(e.target.value))}></input>
             <br />
             <Link to='/Auswertung'><input
                 className="submitinput"
                 type="submit"
-                onClick={calcutate}
                 value="Berechnen"/></Link>
 
              <Link to='/'><input
@@ -104,10 +88,7 @@ export default function Rechner() {
                 type="submit"
                 value="Zurück"/></Link>
             <br />
-            {evaluation}
-            <br />
-            {versicherung}
-            <br />
+
 
 
 
@@ -116,3 +97,4 @@ export default function Rechner() {
 
     )
 }
+

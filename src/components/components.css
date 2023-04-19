@@ -19,8 +19,14 @@
 
 }
 
+#topline{
 
+  text-underline-offset: 1px;
+  
+  text-decoration-line: underline;
+}
 .numberinput {
+  all: unset;
 
     width: 100%;
     padding: 12px 20px;
@@ -47,6 +53,12 @@
     color:rgb(174, 174, 177);
     }
 
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
   
 .submitinput {
     width: 100%;
@@ -58,6 +70,7 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
   .radioinput {
     font-family: system-ui, sans-serif;
