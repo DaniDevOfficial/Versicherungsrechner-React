@@ -7,14 +7,14 @@ import { useState } from "react";
 
 function ParentWhole(){
 
-    const [worth, setWorth] = useState(100000);
-    const [insurance, setInsurance] = useState(10000);
-    const [damage, setDamage] = useState(20000);
+    const [worth, setWorth] = useState();
+    const [insurance, setInsurance] = useState(0);
+    const [damage, setDamage] = useState();
 
     return(
         <div>
 
-
+            
             <Routes>              
             <Route path='/' element={<Model />} />
             <Route path='/Rechner' element={<CalculatorFirst setWorth={setWorth} setInsurance={setInsurance} damage={damage} setDamage={setDamage}  />} />
