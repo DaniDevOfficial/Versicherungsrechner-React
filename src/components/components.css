@@ -40,7 +40,7 @@ table {
 .numberinput {
   all: unset;
 
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -48,16 +48,21 @@ table {
     border-radius: 15px;
     box-sizing: border-box;
     text-align: right;
-    box-shadow: #6c726c;
     color: white;
     font-size: 25px;
     margin-top: 3%;
     padding:20px;
-    filter: drop-shadow(0 0 0.75rem rgb(103, 94, 94));
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
     background-color: transparent;
-    border-bottom: 2px solid rgb(219, 151, 151);
+    border-bottom: 2px solid rgb(76, 148, 182);
+    
 
 }
+input[type=back] {
+width: auto;
+}
+
+
 .numberinput:focus {
     outline: none;
   }
@@ -74,7 +79,7 @@ table {
   
 .submitinput {
 width: 100%;
-    background-color: #6c726c;
+    background-color: #419493;
     color: white;
     text-align: center;
     padding: 14px 20px;
@@ -83,6 +88,7 @@ width: 100%;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 90%;
   }
   .radioinput {
     font-family: system-ui, sans-serif;
@@ -94,5 +100,29 @@ width: 100%;
     display: none;
 }
 input:disabled {
-  background: #f00;
+  background: rgb(0, 0, 0);
 }
+         
+         
+.submitinput {
+  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #786b6b;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.submitinput:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
