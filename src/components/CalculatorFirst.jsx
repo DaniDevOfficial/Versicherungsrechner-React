@@ -3,20 +3,18 @@ import { useNavigate } from 'react-router-dom'
 import FinalOutput from "./CalculatorOutput";
 import ParentWhole from "./ParentWhole";
 import "./components.css";
+import { Link } from "react-router-dom";    
 
 
 
-export default function CalculatorFirst({ setWorth, setInsurance, setDamage }) {
+export default function CalculatorFirst({ setWorth, setInsurance, setDamage}) {
 
-    const [check, setCheck] = useState(1230)
-    const [placeholderinsurance, setPlaceholderinsurance] = useState ("Versicherungswert")
-    const [placeholderworth, setPlaceholderworth] = useState ("Hausratswert")
     const navigate = useNavigate()
-
-
     function handlesubmit(){
         navigate('/Auswertung')    
 }
+
+
 
 return (
         <div id="calculator">
@@ -39,7 +37,7 @@ return (
                 type="number"
                 min="0"
                 required
-                onChange={(e) => { setWorth(parseInt(e.target.value))}}></input>
+                onChange={(e) => { setInsurance(parseInt(e.target.value))}}></input>
             <br />
             <p>Schaden Total</p>
             <input
@@ -56,10 +54,11 @@ return (
             className="submitinput"
             type="submit"/>
 
-             <input
+<Link to="/">
+<input
                 className="submitinput"
                 type="back"
-                value="Zurück"/>
+                value="Zurück"/></Link>
                 </form>
             <br />
 

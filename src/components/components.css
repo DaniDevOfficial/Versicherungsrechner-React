@@ -45,7 +45,7 @@ table {
     margin: 8px 0;
     display: inline-block;
     border: transparent;
-    border-radius: 15px;
+    border-radius: 105px;
     box-sizing: border-box;
     text-align: right;
     color: white;
@@ -54,8 +54,8 @@ table {
     padding:20px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
     background-color: transparent;
-    border-bottom: 2px solid rgb(76, 148, 182);
-    
+    border: 2px solid rgb(76, 148, 182);
+    background-color:#557296 
 
 }
 input[type=back] {
@@ -91,11 +91,9 @@ width: 100%;
     width: 90%;
   }
   .radioinput {
-    font-family: system-ui, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.1;
+    vertical-align: middle
   }
+
   ::-webkit-scrollbar {
     display: none;
 }
@@ -118,11 +116,37 @@ input:disabled {
   display: block;
   margin: 0 auto;
   margin-top: 5%;
+  text-decoration: none;
 }
 
 .submitinput:hover {
   background-position: right center; 
   color: #fff;
+  text-decoration: none;
+}
+.modelsubmit {
+  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #ad8a8a;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: transparent;
+}
+
+.modelsubmit:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+link{
   text-decoration: none;
 }
 
