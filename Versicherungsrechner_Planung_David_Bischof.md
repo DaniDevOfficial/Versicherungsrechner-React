@@ -24,23 +24,23 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 ## Liste der noch anstehenden Ideen
 
-* [ ] Hosting 
-* [ ] Auswertung Herunterladen
+*
+
 ---
 
 ## Liste der Arbeiten, die ich am erledigen bin
 
-* Zeitraum: von 24.03.2023 bis 31.03.2023
+* Zeitraum: von 5.05.2023 bis 12.05.2023
 
 #### offen
+  
+* [ ] Auswertung Herunterladen
 
-* [ ] System entwerfen
 
 
 #### in Arbeit
 
-* [ ] 3 Seiten System einbauen
-* [ ] Planung Schreiben
+* [ ] Hosting 
 
 
 #### erledigt
@@ -54,4 +54,7 @@ Ich informiere regelmässig über meine Tätigkeiten.
 * [X] Repo erstellen
 * [X] Doku erstellen
 * [X] Basis für den Rechner Coden
+* [X] System entwerfen
+* [X] 3 Seiten System einbauen
+* [X] Planung Schreiben
 
