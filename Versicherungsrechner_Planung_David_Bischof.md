@@ -35,12 +35,14 @@ Ich informiere regelmässig über meine Tätigkeiten.
 #### offen
   
 * [ ] Auswertung Herunterladen
+* [ ] CSS Fixing
 
 
 
 #### in Arbeit
 
 * [ ] Hosting 
+* [ ] Output Text schreiben
 
 
 #### erledigt
