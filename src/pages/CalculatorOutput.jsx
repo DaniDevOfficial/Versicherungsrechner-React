@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import CalculatorFirst from "./CalculatorFirst";
+import CalculatorFirst from "./CalculatorWholeWorth";
 import "./components.css";
 
 export default function CalculatorOutput(props) {
@@ -34,7 +34,7 @@ export default function CalculatorOutput(props) {
   function addThousandSeparators(num) {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'");
   }
-  
+
 
   return (
     <div id="model">
@@ -54,13 +54,13 @@ export default function CalculatorOutput(props) {
           <td>{addThousandSeparators(outputinsurance)}.-</td>
           <td>Hausrat angabe bei der Versicherung</td>
         </tr>
-        {( outputdamage == 0 || !isNaN(outputdamage)) && (
-        <tr id="damage">
-          <td>Schaden</td>
-          <td>{addThousandSeparators(outputdamage)}.-</td>
-          <td>Schaden am Hausrat</td>
-        </tr>
-      )}
+        {(outputdamage == 0 || !isNaN(outputdamage)) && (
+          <tr id="damage">
+            <td>Schaden</td>
+            <td>{addThousandSeparators(outputdamage)}.-</td>
+            <td>Schaden am Hausrat</td>
+          </tr>
+        )}
         <tr>
           <td>{overunderwhat}</td>
           <td>{overunderpay}.-</td>

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import "./components.css"
 
 
-export default function Modell({ setWhichmodell }) {
+export default function ModellChoser({ setWhichmodell }) {
     const navigate = useNavigate()
 
     function handlesubmit(which) {

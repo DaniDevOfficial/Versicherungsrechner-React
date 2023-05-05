@@ -7,13 +7,10 @@ import { Link } from "react-router-dom";
 
 
 
-export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
+export default function CalculatorWholeWorth({ setWorth, setInsurance, setDamage }) {
 
-    const [quadworth, setQuadworth] = useState()
-    const [quadamount, setQuadamount] = useState()
     const navigate = useNavigate()
     function handlesubmit() {
-        setWorth(quadamount*quadworth)
         navigate('/Auswertung')
     }
 
@@ -21,26 +18,16 @@ export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
 
     return (
         <div id="calculator">
+            <p>Hausratswert</p>
             <form action="javascript:void(0);" onSubmit={handlesubmit}>
-                <p>Anzahl Quadratmeter</p>
                 <input
                     className="numberinput"
                     id="worthinput"
-                    placeholder="Quadratmeter"
+                    placeholder="Hausratswert"
                     type="number"
                     min="0"
                     required
-                    onChange={(e) => { parseInt(setQuadamount(e.target.value)) }} />
-                <br />
-                <p>Wert Pro Quadratmeter</p>
-                <input
-                    className="numberinput"
-                    id="worthinput"
-                    placeholder="Durchschnitt"
-                    type="number"
-                    min="0"
-                    required
-                    onChange={(e) => { parseInt(setQuadworth(e.target.value)) }} />
+                    onChange={(e) => { setWorth(parseInt(e.target.value)) }}></input>
                 <br />
                 <p>Für wie viel sind sie versichert</p>
                 <input
@@ -50,7 +37,7 @@ export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
                     type="number"
                     min="0"
                     required
-                    onChange={(e) => { setInsurance(parseInt(e.target.value)) }} />
+                    onChange={(e) => { setInsurance(parseInt(e.target.value)) }}></input>
                 <br />
                 <p>Schaden Total</p>
                 <input
@@ -84,6 +71,4 @@ export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
 
     )
 }
-
-
 
