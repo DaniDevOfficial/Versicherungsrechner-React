@@ -11,7 +11,9 @@ export default function CalculatorWholeWorth({ setWorth, setInsurance, setDamage
 
     const navigate = useNavigate()
     function handlesubmit() {
-        navigate('/Auswertung')
+        navigate('/Rechner/Auswertung')
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+
     }
 
 

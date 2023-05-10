@@ -14,7 +14,8 @@ export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
     const navigate = useNavigate()
     function handlesubmit() {
         setWorth(quadamount * quadworth)
-        navigate('/Auswertung')
+        navigate('/Rechner/Auswertung')
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
     }
 
 
@@ -67,7 +68,7 @@ export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
                     className="submitinput"
                     type="submit" />
 
-                <Link to="/">
+                <Link to="/Rechner/Model">
                     <input
                         className="submitinput"
                         type="back"

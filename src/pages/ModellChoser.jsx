@@ -10,7 +10,9 @@ export default function ModellChoser({ setWhichmodell }) {
 
     function handlesubmit(which) {
      
-        navigate('/Rechner')
+        navigate('/Rechner/Eingabe')
+        window.scrollTo({ top: 121, left: 0, behavior: 'smooth' })
+
     }
 
 
@@ -22,9 +24,11 @@ export default function ModellChoser({ setWhichmodell }) {
                 <input type="radio" id="quadrat" name="modell" value="1" className="radioinput" required onChange={(e) => setWhichmodell(e.target.value)} />
                 <br />
                 <label for="hauswert">Versicherungssummenmodell</label>
-                <input type="radio" id="versicherung" name="modell" value="2" className="radioinput" required onChange={(e) => setWhichmodell(e.target.value)} />
+                <input type="radio" id="hauswert" name="modell" value="2" className="radioinput" required onChange={(e) => setWhichmodell(e.target.value)} />
                 <input type="submit" value="Weiter" className="modelsubmit" />
             </form>
+
+            
         </div>
 
 

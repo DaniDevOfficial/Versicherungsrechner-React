@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 10%;
+
+  }
+  
+  li {
+    float: left;
+    color: rgb(101, 98, 98);
+
+  }
+  
+  li{
+    display: block;
+    padding: 8px;
+    background-color: #070721;
+  }
+
+  li:hover {
+    background-color: #0b779e;
+    color: white;
+
+  }

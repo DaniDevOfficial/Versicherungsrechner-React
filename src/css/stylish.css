@@ -1,0 +1,9 @@
+#faq {
+    background-color: rgb(37, 135, 220);
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 20px;
+    backdrop-filter: blur(100px);
+    outline: #6c726c;
+  
+  }
