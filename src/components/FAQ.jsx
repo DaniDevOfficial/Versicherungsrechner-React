@@ -8,16 +8,16 @@ const data = {
     rows: [
         {
             title: "Was ist mein Hausratswert?",
-            content: `Der Hausratswert ist der ganze Wert der Dinge im Haus, was heisst, wenn sie ein Tepich ein PC und ein Teller im Haus habe ist das ihr Hausratswert.`,
+            content: `Der Hausratswert ist der ganze Wert der Dinge im Haus, was heisst, wenn Sie einen Teppich, einen PC und einen Teller im Haus haben ist das Ihr Hausratswert.`,
         },
         {
-            title: "Was ist der Durchschnitt pro Quadratmeter Wert?",
+            title: "Was ist mit 'Durchschnitt pro Quadratmeter' gemeint?",
             content:
-                "Der Durchschnitt ist berechnet in dem man den Hausratswert durch die Anzahl Quadratmeter im Haus rechnet.",
+                "Der Durchschnitt ist berechnet, indem man den Hausratswert durch die Anzahl Quadratmeter der Wohnfläche im Haus rechnet.",
         },
         {
             title: "Wo finde ich meinen Versicherungswert?",
-            content: `Entweder weiss man diese Zahl oder man kann eifach bei der eigenen Versicherung nachfragen.`,
+            content: `Man kann bei der eigenen Versicherung nachfragen oder im Versicherungsvertrag nachschauen.`,
         },
 
     ],

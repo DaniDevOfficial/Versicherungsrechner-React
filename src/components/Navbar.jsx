@@ -14,6 +14,8 @@
                 <Link to='/Rechner/Model'><li>Rechner</li></Link>
                 <Link to='/About'><li>About</li></Link>
                 <Link to='/FAQ'><li>FAQ</li></Link>
+                <Link to='/Kontakt'><li>Kontakt</li></Link>
+
     
     
                 

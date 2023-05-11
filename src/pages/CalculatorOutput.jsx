@@ -13,7 +13,9 @@ export default function CalculatorOutput(props) {
   let overunderinfo;
   let overunderwhat;
   let overunderpay;
-
+if (outputdamage>outputworth){
+  outputdamage = outputworth
+}
   if (outputworth > outputinsurance) {
     // to little insurance
     overunderpay = addThousandSeparators(outputworth - outputinsurance);
@@ -25,11 +27,13 @@ export default function CalculatorOutput(props) {
     overunderpay = addThousandSeparators(outputinsurance - outputworth);
     overunderinfo = "Versicherung um " + addThousandSeparators(overunderpay) + ".- verringern";
     overunderwhat = "Überversichert";
+
   } else {
     // Perfect
     overunderpay = 0;
     overunderinfo = "Versicherung beibehalten";
     overunderwhat = "Perfekt Versichert";
+
   }
 
 
@@ -39,6 +43,7 @@ export default function CalculatorOutput(props) {
 
 
   return (
+    <div>
     <div id="output">
       <table>
         <tr id="topline">
@@ -54,7 +59,7 @@ export default function CalculatorOutput(props) {
         <tr>
           <td>Versicherung</td>
           <td>{addThousandSeparators(outputinsurance)}.-</td>
-          <td>Hausrat angabe bei der Versicherung</td>
+          <td>Angabe Hausratswert bei der Versicherung</td>
         </tr>
         {(outputdamage == 0 || !isNaN(outputdamage)) && (
           <tr id="damage">
@@ -68,7 +73,9 @@ export default function CalculatorOutput(props) {
           <td>{overunderpay}.-</td>
           <td>{overunderinfo}</td>
         </tr>
+      
       </table>
+    </div>
     </div>
   );
 }

@@ -33,7 +33,7 @@ export default function CalculatorWholeWorth({ setWorth, setInsurance, setDamage
                     required
                     onChange={(e) => { setWorth(parseInt(e.target.value)) }}></input>
                 <br />
-                <p>Für wie viel sind sie versichert</p>
+                <p>Für wie viel sind Sie versichert</p>
                 <input
                     className="numberinput"
                     id="insuranceinput"

@@ -45,7 +45,7 @@ export default function CalculatorQuad({ setWorth, setInsurance, setDamage }) {
                     required
                     onChange={(e) => { parseInt(setQuadworth(e.target.value)) }} />
                 <br />
-                <p>Für wie viel sind sie versichert</p>
+                <p>Für wie viel sind Sie versichert</p>
                 <input
                     className="numberinput"
                     id="insuranceinput"
