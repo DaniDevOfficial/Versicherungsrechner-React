@@ -29,7 +29,7 @@ export default function ParentWhole() {
         <div>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/' element={<Home />} />
+                <Route path='/Versicherungsrechner-React/' element={<Home />} />
 
                 <Route path='/Rechner/Model' element={<ModellChoser setWhichmodell={setWhichmodell} />} />
                 <Route path='/Rechner/Eingabe' element={<Whichcalculator setWorth={setWorth} setInsurance={setInsurance} damage={damage} setDamage={setDamage} whichmodell={whichmodell} />} />
