@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Versicherungsrechner-React/static/css/main.b032dc57.css",
-    "main.js": "/Versicherungsrechner-React/static/js/main.bfdfb951.js",
+    "main.css": "/Versicherungsrechner-React/static/css/main.bc374e70.css",
+    "main.js": "/Versicherungsrechner-React/static/js/main.06cedf45.js",
     "static/js/787.3578921d.chunk.js": "/Versicherungsrechner-React/static/js/787.3578921d.chunk.js",
-    "static/media/Haus.jpg": "/Versicherungsrechner-React/static/media/Haus.ce3a06df4f6db365a19d.jpg",
+    "static/media/Haus4.jpg": "/Versicherungsrechner-React/static/media/Haus4.17e10ce4f6070b2708a3.jpg",
     "index.html": "/Versicherungsrechner-React/index.html",
-    "main.b032dc57.css.map": "/Versicherungsrechner-React/static/css/main.b032dc57.css.map",
-    "main.bfdfb951.js.map": "/Versicherungsrechner-React/static/js/main.bfdfb951.js.map",
+    "main.bc374e70.css.map": "/Versicherungsrechner-React/static/css/main.bc374e70.css.map",
+    "main.06cedf45.js.map": "/Versicherungsrechner-React/static/js/main.06cedf45.js.map",
     "787.3578921d.chunk.js.map": "/Versicherungsrechner-React/static/js/787.3578921d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b032dc57.css",
-    "static/js/main.bfdfb951.js"
+    "static/css/main.bc374e70.css",
+    "static/js/main.06cedf45.js"
   ]
 }
