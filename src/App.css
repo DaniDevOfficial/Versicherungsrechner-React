@@ -1,9 +1,11 @@
 .App {
   text-align: center;
-  background-image: url("./img/Haus2.jpg");
 background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+background-repeat: repeat-y;
+background: url("./img/Haus4.jpg")  top no-repeat;
+backdrop-filter: blur(100px);
+
+
 }
 
 .App-logo {

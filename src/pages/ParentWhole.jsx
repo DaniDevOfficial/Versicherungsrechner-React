@@ -34,6 +34,7 @@ export default function ParentWhole() {
                 <Route path='/Hilfe' element={<Help />} />
                 <Route path='/FAQ' element={<Help />} />
 
+
             </Routes>
         </div>
     )
