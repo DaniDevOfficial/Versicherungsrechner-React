@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Versicherungsrechner-React/static/css/main.bc374e70.css",
-    "main.js": "/Versicherungsrechner-React/static/js/main.06cedf45.js",
+    "main.js": "/Versicherungsrechner-React/static/js/main.edc4eb66.js",
     "static/js/787.3578921d.chunk.js": "/Versicherungsrechner-React/static/js/787.3578921d.chunk.js",
     "static/media/Haus4.jpg": "/Versicherungsrechner-React/static/media/Haus4.17e10ce4f6070b2708a3.jpg",
     "index.html": "/Versicherungsrechner-React/index.html",
     "main.bc374e70.css.map": "/Versicherungsrechner-React/static/css/main.bc374e70.css.map",
-    "main.06cedf45.js.map": "/Versicherungsrechner-React/static/js/main.06cedf45.js.map",
+    "main.edc4eb66.js.map": "/Versicherungsrechner-React/static/js/main.edc4eb66.js.map",
     "787.3578921d.chunk.js.map": "/Versicherungsrechner-React/static/js/787.3578921d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc374e70.css",
-    "static/js/main.06cedf45.js"
+    "static/js/main.edc4eb66.js"
   ]
 }
