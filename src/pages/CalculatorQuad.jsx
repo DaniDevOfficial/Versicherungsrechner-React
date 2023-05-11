@@ -2,7 +2,9 @@ import { useState } from "react";
 import { useNavigate } from 'react-router-dom'
 import FinalOutput from "./CalculatorOutput";
 import ParentWhole from "./ParentWhole";
-import "./components.css";
+import '../css/CalculatorDatainput.css'
+import "../css/components.css"
+
 import { Link } from "react-router-dom";
 
 

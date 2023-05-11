@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+input[type=back] {
+  width: auto;
+}
+
+
+.numberinput:focus {
+  outline: none;
+}
+
+.numberinput::placeholder {
+  color: rgb(174, 174, 177);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+.radioinput {
+  vertical-align: middle
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input:disabled {
+  background: rgb(0, 0, 0);
+}
+
+
+
+
+.submitinput:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.modelsubmit:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+link {
+  text-decoration: none;
+}

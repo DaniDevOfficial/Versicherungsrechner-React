@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import CalculatorFirst from "./CalculatorWholeWorth";
-import "./components.css";
+import "../css/CalculatorOutput.css";
+import "../css/components.css"
+
 
 export default function CalculatorOutput(props) {
   let outputworth = parseInt(props.worth);
@@ -37,7 +39,7 @@ export default function CalculatorOutput(props) {
 
 
   return (
-    <div id="model">
+    <div id="output">
       <table>
         <tr id="topline">
           <td>Was</td>

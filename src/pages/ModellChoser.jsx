@@ -2,7 +2,8 @@ import { useState } from "react";
 import { useNavigate } from 'react-router-dom'
 
 
-import "./components.css"
+import "../css/CalculatorModel.css"
+import "../css/components.css"
 
 
 export default function ModellChoser({ setWhichmodell }) {

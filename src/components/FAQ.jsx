@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
-import "../css/stylish.css"
+import "../css/FAQ.css"
 
 const data = {
     title: "FAQ",
@@ -19,10 +19,7 @@ const data = {
             title: "Wo finde ich meinen Versicherungswert?",
             content: `Entweder weiss man diese Zahl oder man kann eifach bei der eigenen Versicherung nachfragen.`,
         },
-        {
-            title: "Can i have the git for this page",
-            content: "no",
-        },
+
     ],
 };
 
@@ -32,7 +29,7 @@ const styles = {
     rowTitleColor: "white",
 
 
-    // rowContentColor: 'grey',
+   rowContentColor: 'white',
     // arrowColor: "red",
 
 
