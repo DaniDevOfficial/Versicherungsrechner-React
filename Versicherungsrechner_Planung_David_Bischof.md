@@ -1,4 +1,4 @@
-# <Projekt> Planungsübersicht
+# Versicherungsrechner Planungsübersicht
 
 | Bezeichnung    | Angaben        |
 | -------------- | ---------------|
@@ -16,36 +16,37 @@ In diesem Dokument mache ich alle meine Tätigkeiten zum Projek transparent.
    * alles was ich gerade mache
    * alles was bereits erledigt ist
 * Liste aller zuvor abgeschlossener Arbeiten
-   
+
 Ich informiere regelmässig über meine Tätigkeiten.
 
-   
+
 ---
 
 ## Liste der noch anstehenden Ideen
 
-*
-
+* [ ] Auswertung Herunterladen
 ---
 
 ## Liste der Arbeiten, die ich am erledigen bin
 
-* Zeitraum: von 5.05.2023 bis 12.05.2023
+* Zeitraum: von 6.052023 bis 12.05.2023
 
 #### offen
-  
-* [ ] Auswertung Herunterladen
-* [ ] CSS Fixing
+
 
 
 
 #### in Arbeit
 
-* [ ] Hosting 
-* [ ] Output Text schreiben
-
 
 #### erledigt
+
+* [X] Styling
+* [X] Hosting
+* [X] Help Button
+* [X] Kontakt
+* [X] Doku schreiben
+
 
 
 ---
@@ -56,7 +57,17 @@ Ich informiere regelmässig über meine Tätigkeiten.
 * [X] Repo erstellen
 * [X] Doku erstellen
 * [X] Basis für den Rechner Coden
-* [X] System entwerfen
-* [X] 3 Seiten System einbauen
-* [X] Planung Schreiben
+* [X] Background
+* [X] Styling 
+* [X] Mehr Styling
+* [X] Idea Brainstorming
+* [X] Routing lernen
+* [X] 3 Seiten System einbauen 
+* [X] Copyright
+* [X] Child Parent Lernen
+* [X] Routing lernen
+* [X] CSS buttons reactive
+* [X] Navigation inteligenter
+* [X] Parent Component
+* [X] Designe Output
 
