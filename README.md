@@ -24,6 +24,14 @@ Windows:
 * npm install react-faq-component
 * npm install @emailjs/browser
 
+
+## Using the Dockerfile 
+
+* Download the Dockerfile
+* docker build -t <my-react-app> .
+* docker run -p 3000:3000 my-react-app
+  
+
 ## Using Versicherungsrechner-React
 
 To use this, follow these steps:
