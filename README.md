@@ -43,7 +43,7 @@ npm start
 
 ## Contributing to Versicherungsrechner-React
 
-To contribute to <project_name>, follow these steps:
+To contribute to Versicherungsrechner-React, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b master`.
