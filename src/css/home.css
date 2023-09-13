@@ -1,0 +1,30 @@
+.homeh2{
+margin-left: 20%;
+margin-right: 20%;
+}
+#slogan{
+    padding-top: 1%;
+    backdrop-filter: blur(100px);
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+#whyus{
+    backdrop-filter: blur(80px);
+
+    background: transparent;
+    color: black; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+#specialsubmit{
+    font-size: large;
+    max-width: 50%;
+    height: 70px;
+    margin-top: 0;
+
+}
